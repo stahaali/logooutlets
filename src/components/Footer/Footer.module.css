@@ -1,0 +1,43 @@
+footer 
+{
+    background: #000;
+    color: rgba(255, 255, 255, 0.86);
+    padding: 40px 0 25px;
+}
+.whitelogo
+{
+    max-width:230px;
+}
+footer a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+.footerbrand span.logo-mark {
+    background: var(--primary-color);
+}
+
+.footersocial a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin-right: 8px;
+    font-size: 0.85rem;
+}
+
+.footerbottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    margin-top: 1.5rem;
+    padding-top: 1.2rem;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.7);
+}

@@ -1,0 +1,33 @@
+header.desktopmenu {
+    transition: all .3s;
+    padding: 7px;
+}
+header 
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+}
+header.desktopmenu .blacklogo 
+{
+    max-width: 200px;
+    height: 47px;
+}
+.navlink {
+    font-weight: 500;
+    color: #333333;
+    padding: 0.5rem 0.9rem;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.navlink:hover
+{
+    color: #ff2a40;
+}
+.navlink svg
+{
+    color: #ff2a40;
+}
